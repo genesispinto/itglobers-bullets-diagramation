@@ -14,7 +14,7 @@ type Props = {
 const Bullet = ({ src, titleBullet, link }: Props) => {
     const CSS_HANDLES = [
         "bullet__item",
-        // "bullet__item--title",
+        "bullet__item--title",
         "bullet__item--image",
         "bullet__item--link"
     ]
@@ -30,11 +30,11 @@ const Bullet = ({ src, titleBullet, link }: Props) => {
                     src={src}
                     alt={titleBullet}
                 />
-                {/* <p
+                <p
                     className={handles["bullet__item--title"]}
                 >
                     {titleBullet}
-                </p> */}
+                </p>
             </Link>
         </div>
     )
