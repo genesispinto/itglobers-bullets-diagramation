@@ -1,14 +1,14 @@
 export type BulletsSchema = Array<{
     image: string
     titleBullet: string
-    link: Link
+    link?: LinkProps
 }>
 
-export interface Link {
+export interface LinkProps {
     url: string
     atributeNoFollow: boolean
-    atributeTitle?:string
+    atributeTitle?: string
     openNewTab?: boolean
     newTab?: boolean
-    
+
 }
