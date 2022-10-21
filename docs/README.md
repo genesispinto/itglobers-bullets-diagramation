@@ -2,6 +2,7 @@
 <h1 align="center"> Bullets diagramation </h1>
 
 Es un contexto de elementos que renderizaran los niveles inferiores de navegacion dentro de una lista de bullets con imagenes
+![bullet-group](https://user-images.githubusercontent.com/95322919/197269225-0dd9df0a-d9a7-473a-8644-b88d2754c500.png)
 
 
 
